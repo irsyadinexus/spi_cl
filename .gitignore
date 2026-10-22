@@ -1,0 +1,23 @@
+# Simulation binaries and generated build directories
+sim/sim_iv*.out*
+sim/obj_dir*/
+sim/coverage.dat
+sim/coverage_reg_top.dat
+
+# Waveform traces
+waves/*.vcd
+waves/*.fst
+!waves/.gitkeep
+
+# Coverage reports
+coverage/
+coverage_reg_top/
+
+# Temporary / OS / editor metadata
+*:Zone.Identifier
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
